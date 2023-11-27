@@ -1,0 +1,234 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .container {
+    width: 100vw;
+    height: 100vh;
+  }
+  .title_container_l {
+    display: inline-block;
+    width: 60%;
+    margin-top: 20%;
+    padding-left: 90px;
+  }
+  .title {
+    width: 368px;
+    font-size: 70px;
+    font-weight: 400;
+    color: #5d5d7d;
+    line-height: 80px;
+    margin-bottom: 15px;
+  }
+  .title_paragrafo {
+    width: 540px;
+    color: #5d5d7d;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 48px;
+    opacity: 0.6;
+    margin: 15px 0;
+  }
+  .btn {
+    width: 269px;
+    height: 63px;
+    background: #9499ea;
+    border: none;
+    border-radius: 40px;
+    font-size: 25px;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    filter: drop-shadow(0px 10px 24px rgba(148, 153, 234, 0.1));
+  }
+  .btn:hover {
+    opacity: 0.8;
+  }
+  .btn:active {
+    opacity: 0.4;
+  }
+  header {
+    margin: 25px 0 0 34px;
+  }
+  .list_header {
+    margin-left: 41px;
+    color: rgb(93, 93, 126);
+    font-weight: 400;
+    font-size: 28px;
+    cursor: pointer;
+  }
+  .list_header:nth-child(2) {
+    opacity: 0.6;
+  }
+  .list_header:hover {
+    opacity: 0.8;
+  }
+  .list_header:active {
+    opacity: 0.3;
+    color: red;
+  }
+  
+  .conteudoimg_container_r {
+    display: inline-block;
+    background-color: rgba(93, 93, 126, 0.16);
+    position: absolute;
+    width: 500px;
+    height: 901px;
+  }
+  .img_conteudo {
+    margin-top: 40px;
+    width: 489px;
+    height: 500px;
+    position: relative;
+    top: 10%;
+    right: 130px;
+  }
+  @media (max-width:1206px) {
+    .title_container_l {
+      width: 100%;
+      height: 50%;
+      padding: 0;
+      margin: 0;
+    }
+    .conteudoimg_container_r {
+      display: block;
+      padding: 40px;
+      height: auto;
+      width: 100%;
+      position: static;
+    }
+    .title {
+      font-size: 36px;
+      line-height: 55px;
+      text-align: center;
+      margin: 58px auto 0;
+      width: 325px;
+    }
+    .title_paragrafo {
+      width: auto;
+      font-size: 24px;
+      line-height: 40px;
+      text-align: center;
+      margin: 15px 40px;
+    }
+    .btn {
+      display: block;
+      margin: 0 auto;
+    }
+    .img_conteudo {
+      position: static;
+      margin: 0 0 0 18%;
+      max-width: 80%;
+      height: auto;
+    }
+    header{
+      margin: 25px 0 25px 34px;
+      text-align: center;
+    }
+  }
+  @media (max-width: 1011px) {
+    .title_container_l {
+      width: 100%;
+      height: 50%;
+      padding: 0;
+      margin: 0;
+    }
+    .conteudoimg_container_r {
+      display: block;
+      padding: 40px;
+      height: auto;
+      width: 100%;
+      position: static;
+    }
+    .title {
+      font-size: 36px;
+      line-height: 55px;
+      text-align: center;
+      margin: 58px auto 0;
+      width: 225px;
+    }
+    .title_paragrafo {
+      width: auto;
+      font-size: 24px;
+      line-height: 40px;
+      text-align: center;
+      margin: 15px 40px;
+    }
+    .btn {
+      display: block;
+      margin: 0 auto;
+    }
+    .img_conteudo {
+      position: static;
+      margin: 0 0 0 18%;
+      max-width: 80%;
+      height: auto;
+    }
+    header {
+      display: none;
+    }
+  }
+  @media (max-width: 755px) {
+    .img_conteudo {
+      position: static;
+      margin: 0 auto;
+      max-width: 80%;
+      height: auto;
+    }
+    .title_paragrafo {
+      width: auto;
+      font-size: 20px;
+      line-height: 35px;
+      text-align: center;
+      margin: 15px 40px;
+    }
+  }
+  
+  @media (max-width: 700px) {
+    .title_container_l {
+      width: 100%;
+      height: 50%;
+      padding: 0;
+      margin: 0;
+    }
+    .conteudoimg_container_r {
+      display: block;
+      padding: 40px;
+      height: auto;
+      width: 100%;
+      position: static;
+    }
+    .title {
+      font-size: 36px;
+      line-height: 55px;
+      text-align: center;
+      margin: 58px auto 0;
+      width: auto;
+    }
+    .title_paragrafo {
+      width: auto;
+      font-size: 14px;
+      line-height: 24px;
+      text-align: center;
+      margin: 15px 40px;
+    }
+    .btn {
+      display: block;
+      margin: 0 auto;
+    }
+    .img_conteudo {
+      position: static;
+      margin: 0 auto;
+      max-width: 80%;
+      height: auto;
+    }
+    header {
+      display: none;
+    }
+  }
+  
